@@ -6,9 +6,15 @@ Third Color (yellow): #f5bc5a;
 Text (Black blue): #07214b;
 */
 
-img {
-    width: 100%;
-  }
+/* ----------------------------section start----------------------------*/
+ /* box sizing */
+ * {
+  box-sizing: border-box;
+}
+/* ----------------------------section end----------------------------*/
+
+/* ----------------------------section start----------------------------*/
+/*default body settings*/
 
 body {
     background-color: #F9F5E9;
@@ -41,6 +47,12 @@ h1, h2, h3, h4 {
     font-weight: 400;
   }
 
+  /* images to full width*/
+img {
+    width: 100%;
+  }
+
+/* default & changed link colors*/
   a {
     color: #13366e;
     text-decoration: none; /* No underlining */
@@ -49,6 +61,8 @@ h1, h2, h3, h4 {
     color: #13366e;
     text-decoration: underline; /* Underlining when hovering over a link */
   }
+
+  /*button states*/
 
 /*this block is why the color of the button text is messed up (ref 70) still don't know why*/
   a:visited { /* visited link */
@@ -59,12 +73,11 @@ h1, h2, h3, h4 {
   }
 
   a:hover,
-a:focus {
+  a:focus {
   color: #507fff;
   text-decoration: underline;
 }
 
-/*must be @ bottom of pg don't forget*/
 .button {
     display: inline-block;
     background-color: #0d264f;
@@ -76,7 +89,7 @@ a:focus {
     transition: 0.2s opacity;
   }
 
-  .button:hover { /*hover button*/
+.button:hover { /*hover button*/
   opacity: 0.8;
   text-decoration: none;
 }
@@ -86,17 +99,90 @@ a:focus {
     text-decoration: none;
   }
 
-  .button.contact {
+.button.contact {
     background-color: transparent;
     color: #0d264f;
     text-transform: uppercase;
     border: 2px solid #0d264f;
+    margin: 10px
   }  
-  .button.contact:hover {
+.button.contact:hover {
     background-color: #0d264f;
     color: #f5bc5a;
   }
-  .button.contact:active {
+.button.contact:active {
     background-color: #f5bc5a;
     color: #0d264f;
   }
+
+/* ----------------------------section end----------------------------*/
+
+/* ----------------------------section start----------------------------*/
+/*stye the page sections*/
+
+/*style the <header> element*/
+header {
+  background-color: #F9F5E9;
+  text-align: left;
+  padding: 10px 0;
+  position: relative;
+  box-shadow: 0px 7px 5px 0px rgba(3, 2, 48, 0.75);
+}
+
+/*style the logo*/
+header .logo {
+  max-width: 250px;
+}
+
+/*Navigation Styling*/
+nav {
+  display: inline-block;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0d264f;
+}
+
+#hero {
+  background-color: #F9F5E9;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/*Style the social icons*/
+.social {
+  list-style-type: none;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.social img {
+  height: 32px;
+  width: 32px;
+}
+/* ----------------------------section end----------------------------*/
+
+/* ----------------------------section start----------------------------*/
+  /* Layout styling */
+
+  .container {
+    padding: 0 15px;
+  }
+  
+  .row {
+    margin: 25px 0; 
+  }
+  
+  #work .row { padding-bottom: 25px; border-bottom: 2px solid #a00000; }
