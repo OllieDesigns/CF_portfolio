@@ -189,4 +189,35 @@ nav > ul > li > a {
     margin: 25px 0; 
   }
   
-  #work .row { padding-bottom: 25px; border-bottom: 2px solid #a00000; }
+  #work .row { padding-bottom: 25px; border-bottom: 2px solid #a00000; }  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px;  
+  }
+
+    width: 60%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px;  
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+    width: 70%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px;  
+  }
+
+  .container {
