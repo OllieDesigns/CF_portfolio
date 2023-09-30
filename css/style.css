@@ -120,11 +120,15 @@ height: auto;
   }
 
 .button.contact {
-    background-color: transparent;
-    color: #0d264f;
-    text-transform: uppercase;
-    border: 2px solid #0d264f;
-    margin: 10px
+  display: inline-block;
+  background-color: #0d264f;
+  color: #f5bc5a;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #f5bc5a;
+  transition-duration: 0.5s opacity;
   }  
 .button.contact:hover {
     background-color: #0d264f;
