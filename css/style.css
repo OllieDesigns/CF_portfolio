@@ -52,6 +52,12 @@ img {
     width: 100%;
   }
 
+.about.picture {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
 /* default & changed link colors*/
   a {
     color: #13366e;
