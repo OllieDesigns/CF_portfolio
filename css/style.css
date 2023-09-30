@@ -85,6 +85,20 @@ height: auto;
 }
 
 .button {
+  display: inline-block;
+  background-color: #0d264f;
+  color: #f5bc5a;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #f5bc5a;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+
+/* .button {
     display: inline-block;
     background-color: #0d264f;
     color: #f5bc5a; /*this isn't changing the color of the button font from default link color, not sure why*/
