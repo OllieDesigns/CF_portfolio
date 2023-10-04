@@ -56,10 +56,15 @@ img {
     width: 100%;
   }
 
-.about.picture {
+.about.img {
 width: 100%;
 max-width: 100%;
 height: auto;
+}
+
+.profile.img {
+  width:50%;
+  float: left;
 }
 
 /* default & changed link colors*/
