@@ -64,7 +64,7 @@ height: auto;
 
 .profile.img {
   width:50%;
-  float: left;
+  float: none;
 }
 
 /* default & changed link colors*/
