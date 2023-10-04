@@ -78,8 +78,6 @@ height: auto;
   }
 
   /*button states*/
-
-/*this block is why the color of the button text is messed up (ref 70) still don't know why*/
   a:visited { /* visited link */
     color: #507fff;                   
   }
@@ -105,28 +103,6 @@ height: auto;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
-
-
-/* .button {
-    display: inline-block;
-    background-color: #0d264f;
-    color: #f5bc5a; 
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #f5bc5a;
-    transition: 0.2s opacity;
-  }
-
-.button:hover { /*hover button*/
-  opacity: 0.8;
-  text-decoration: none;
-}
-.button:active { /*active button*/
-    background-color: #f5bc5a;
-    color: #0d264f;
-    text-decoration: none;
-  }
 
 .button.contact {
   display: inline-block;
