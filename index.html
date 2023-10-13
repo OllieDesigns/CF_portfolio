@@ -20,18 +20,27 @@
 	<header>
 		<!-- For the navigation -->
         <div class="container">
-            <a href="index.html">
-            <img src="img/logo/ollie_designs_logo_x2.jpg" class=logo alt="ollie designs logo">
+            <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html">
+			 <img src="img/logo/ollie_designs_logo_x2.jpg" class=logo alt="ollie designs logo">
             </a>
-           <nav> 
-            <ul class="navigation">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-           </nav>
-        </div>
-    </header>
+                <nav>
+                    <ul class="navigation">
+                        <li class="active"><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact" onclick="menuToggle(this)">Contact</a></li>
+                        <li>
+                            <p id="click_advance">
+                                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                                <i class="fas fa-bars"></i>
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+		</div>
+	</header>
 
 <main>
 <!--hero sect-->
