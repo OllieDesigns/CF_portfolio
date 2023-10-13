@@ -160,6 +160,47 @@ nav > ul > li > a {
   color: #0d264f;
 }
 
+nav {
+  width: auto;
+  float: right;
+}
+
+/*hamburg menu*/
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  background-color: #F9F5E9;
+  margin-top: 25px;
+  margin-bottom: -51%;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px #f5bc5a;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 #hero {
   background-color: #F9F5E9;
   padding: 20px 0;
