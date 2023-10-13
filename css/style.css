@@ -220,7 +220,13 @@ nav {
   margin-left: -10px;
 }
 
-.social img {
+.social li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.social img{
   height: 32px;
   width: 32px;
 }
