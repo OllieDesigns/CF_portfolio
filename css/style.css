@@ -74,6 +74,28 @@ height: auto;
   float: none;
 }
 
+.ripple.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+.hero.img {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.case.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+}
+
+
 /* default & changed link colors*/
   a {
     color: #13366e;
