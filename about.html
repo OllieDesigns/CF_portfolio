@@ -1,104 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">    
-  <head>
+<html lang="en" dir="ltr">
+
+<head>
     <meta charset="utf-8">
     <meta name="author" content="Ollie Cline">
     <meta name="description" content="All About Ollie">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/fav/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bfd2d3da4e.js" crossorigin="anonymous"></script>
     <title>All About Ollie</title>
-  </head>
-  <body id="about">
+</head>
+
+<body id="about">
     <!-- For the header -->
-	<header>
-		<!-- For the navigation -->
-		<div class="container">
+    <header>
+        <!-- For the navigation -->
+        <div class="container">
             <div class="navtoggle" id="myNavtoggle">
                 <a href="index.html">
-			 <img src="img/logo/ollie_designs_logo_x2.jpg" class=logo alt="ollie designs logo">
-            </a>
+                    <img src="img/logo/ollie_designs_logo_x2.jpg" class="logo" alt="ollie designs logo">
+                </a>
                 <nav>
                     <ul class="navigation">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="about.html">About</a></li>
                         <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
                         <li><a href="files/cline_resume.pdf" target="_blank">Resume</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
                     </ul>
                 </nav>
             </div>
-		</div>
-	</header>
+        </div>
+    </header>
 
     <main>
-
-        <div id="hero" style="margin-bottom: 40px;"> 
-            <div class="container">
-                <h1>About</h1>
-            </div> 
+        <!-- For the hero section -->
+        <div id="hero" style="margin-bottom: 40px;">
         </div>
         <div class="container">
-            <div><!--Start column 1-->
+            <div><!--For the image, My Story and Skills and tools sections-->
                 <div>
-                    
+
                     <div><!--For My Story and Skills and tools sections-->
-                        <div class="column col-lg-7"><!--Column one-->
-                            <h2>About Ollie</h2>
-                           <picture><!--For students, the images below should be updated with real images-->
-                      <source srcset="img/logo/portfolio_ollie_2x.jpg" media="(max-width:767px)">
-                      <img src="img/logo/portfolio_ollie_2x.jpg" alt="Profile Image">
-                    </picture> 
-                            <p>Hey there! My name is Ollie and I am a pastry chef and UX designer currently living in Minnesota.</p>
-                            <p>I have a background in fine pastry and the culinary arts paired with an education from the Culinary Institute of America. As I’ve been working and learning as a pastry chef, I’ve realized how important it is to make products that are simple, enjoyable, and accessible which has added perspective as a UX designer. With five years in the service and food industry I’m able to multitask, work under pressure, and switch skills at a moment's notice. Being able to focus in a fast paced environment has created a strong basis in on the go problem solving and strong communicative skills, whether I’m presenting an issue, or solving one. I love spending my free time playing video games, creating art, and finding new restaurants to eat at or new grocery stores to wander around in. I’m a big fan of exploring different places and topics, which led me to take CareerFoundry’s UX design course, giving me new skills in research wireframing and prototyping, as well as a slew of other skills!</p>
-                            <div><a href="files/cline_resume.pdf" target="_blank" class="button secondary">Download My Resume</a></div>
-                        </div>
-                        <div class="column col-lg-8"><!--Column two-->
-                            <h3>Skills &amp; Tools</h3>
-                            <div class="column col-md-6"><!--Column two, row one-->
-                                <h4>UX Skills</h4>
-                                <ul>
-                                    <li>Researching</li>
-                                    <li>Prototyping</li>
-                                    <li>Usability Testing</li>
-                                    <li>Information architechture</li>
-                                    <li>Wireframing</li>
-                                    <li>User empathy</li>
-                                    <li>User and designer collaboration</li>
-                                    <li>Collaboration</li>
-                                </ul>
+                        <div class="column col-lg-6"><!--Column one-->
+                            <h3>About Ollie</h3>
+                            <div class="container">
+                                <p>Hey there! My name is Ollie and I am a pastry chef and UX designer currently living
+                                    in Minnesota.</p>
+                                <p>I have a background in fine pastry and the culinary arts paired with an education
+                                    from the Culinary Institute of America. As I’ve been working and learning as a
+                                    pastry chef, I’ve realized how important it is to make products that are simple,
+                                    enjoyable, and accessible which has added perspective as a UX designer. With five
+                                    years in the service and food industry I’m able to multitask, work under pressure,
+                                    and switch skills at a moment's notice. Being able to focus in a fast paced
+                                    environment has created a strong basis in on the go problem solving and strong
+                                    communicative skills, whether I’m presenting an issue, or solving one. I love
+                                    spending my free time playing video games, creating art, and finding new restaurants
+                                    to eat at or new grocery stores to wander around in. I’m a big fan of exploring
+                                    different places and topics, which led me to take CareerFoundry’s UX design course,
+                                    giving me new skills in research wireframing and prototyping, as well as a slew of
+                                    other skills!</p>
+                                <div><a href="files/cline_resume.pdf" target="_blank" class="button contact">Download My
+                                        Resume</a></div>
+                                <div class="column col-lg-6">
+                                    <picture><!--For students, the images below should be updated with real images-->
+                                        <source srcset="img/logo/portfolio_ollie_2x.jpg" media="(max-width:767px)">
+                                        <img src="img/logo/portfolio_ollie_2x.jpg" class="profile img "
+                                            alt="Profile Image">
+                                    </picture>
+                                </div>
+
+
+
+
+                                <div class="column col-md-7"><!--Column two, row one-->
+                                    <h4>UX/UI Skills</h4>
+                                    <ul>
+                                        <li>Researching</li>
+                                        <li>Prototyping</li>
+                                        <li>Usability Testing</li>
+                                        <li>Information architechture</li>
+                                        <li>Wireframing</li>
+                                        <li>Interaction Design</li>
+                                        <li>User and designer collaboration</li>
+                                        <li>Pixel perfect design</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="column col-md-6"><!--Column two, row two-->
-                                <h4>UI Skills</h4>
-                                <ul>
-                                    <li>Interaction design
-                                    <li>Figma</li>
-                                    <li>Adobe Illustrator</li>
-                                    <li>Stlye guide refinement and creation</li>
-                                    <li>Typography</li>
-                                    <li>Color theory</li>
-                                    <li>Pixel perfect design</li>
-                                </ul>
+                            <div class="column col-lg-6"><!--Column two-->
+                                <h3>Skills &amp; Tools</h3>
+
+                                <div class="column col-md-"><!--Column two, row two-->
+                                    <h4>Tools</h4>
+                                    <ul>
+                                        <li>Figma</li>
+                                        <li>Figjam</li>
+                                        <li>Usabilityhub</li>
+                                        <li>Optimal Workshop</li>
+                                        <li>Marvel App</li>
+                                        <li>Canva</li>
+                                        <li>Google Suite</li>
+                                        <li>Visual Studio Code</li>
+                                    </ul>
+                                </div>
+
+
                             </div>
-                            <div class="column col-md-6"><!--Column two, row two-->
-                                <h4>Tools</h4>
-                                <ul>
-                                    <li>Figma</li>
-                                    <li>Figjam</li>
-                                    <li>Usabilityhub</li>
-                                    <li>Optimal Workshop</li>
-                                    <li>Marvel App</li>
-                                    <li>Canva</li>
-                                    <li>Google Suite</li>
-                                    <li>Visual Studio Code</li>
-                                </ul>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -106,41 +122,50 @@
         </div>
     </main>
 
-<!--footer-->
-<footer id="contact">
-    <div class="container">
-        <h2>Let's talk!</h2><!--footer heading-->
-        <p>
-            If you like my work and would like to discuss opportunities, send me an email!</p> 
-        <div>
-            <a href="mailto:olscline@gmail.com?subject=Let's%20chat!&body=Project%20inquiry" class="button contact">Send me an email!</a>
+    <!--footer-->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's talk!</h2><!--footer heading-->
+            <p>
+                If you like my work and would like to discuss opportunities, send me an email!</p>
+            <div>
+                <a href="mailto:olscline@gmail.com?subject=Let's%20chat!&body=Project%20inquiry"
+                    class="button contact">Send me an email!</a>
+            </div>
+            <div>
+                <!--social media layout and placeholders-->
+                <a href="https://www.linkedin.com/in/ollie-cline-50a5b01ba/" target="_blank">
+                    <!--linkedin icon-->
+                    <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" viewBox="0 0 32 32" width="32px"
+                        xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path
+                                d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                                fill="#007BB5" />
+                            <g>
+                                <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                                <path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7   
+ C25,14,24.479,11,20.499,11z" fill="#FFFFFF" />
+                                <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                            </g>
+                        </g>
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                    </svg>
+                </a>
+            </div>
+            <p>Copyright Ollie Cline 2023</p>
         </div>
-    <div>
-        <!--social media layout and placeholders-->
-            <a href="https://www.linkedin.com/in/ollie-cline-50a5b01ba/" target="_blank">
-<!--linkedin icon-->                        
-<svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g>
-<path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5"/>
-<g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/>
-<path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7   
- C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/>
-</g>
-</g>
-<g/>
-<g/>
-<g/>
-<g/>
-<g/>
-<g/>
-</svg>
-            </a>
-        </div>
-        <p>Copyright Ollie Cline 2023</p>
-    </div>
-        </footer>
-        <!--end footer-->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+    </footer>
+    <!--end footer-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
