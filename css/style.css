@@ -112,6 +112,7 @@ height: auto;
   }
 
   /*button states*/
+
   a:visited { /* visited link */
     color: #507fff;                   
   }
@@ -125,7 +126,6 @@ height: auto;
   text-decoration: underline;
 }
 
-
 .button.contact {
   display: inline-block;
   background-color: #0d264f;
@@ -133,6 +133,7 @@ height: auto;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
+  margin: 0px 0px 20px;
   border-radius: 3px;
   border-bottom: 2px solid #f5bc5a;
   transition-duration: 0.5s;
@@ -167,10 +168,11 @@ header .logo {
   margin-bottom: 10px;
 }
 
-/*Navigation Styling*/
+/*Navigation Styling
 nav {
   display: inline-block;
-}
+}*/
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -181,7 +183,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #0d264f;
@@ -240,6 +242,20 @@ nav {
   display: block;
 }
 
+
+#contact {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #07214b;
+  color: white;
+  text-align: left;
+}
+
+
+
+
 /*Style the social icons*/
 .social {
   list-style-type: none;
@@ -264,18 +280,15 @@ nav {
 
   .container {
     padding: 0 15px;
+    min-height: 100%;
+    position: relative;
   }
   
   .row {
-    margin: 25px 0; 
-    padding-bottom: 25px; border-bottom: 2px solid #0d264f;
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
   }
   
-  .row:after { /*needed to use .row:after instead of .row::after */
-    content: "";
-    clear: both;
-    display: table;
-  }
+  #work .row { padding-bottom: 20px; }
 /* ----------------------------section end----------------------------*/
 
 /* ----------------------------section start----------------------------*/
@@ -332,6 +345,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   body {
+    position:relative;
     font-size: 18px;
   }
     
